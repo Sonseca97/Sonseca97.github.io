@@ -289,13 +289,13 @@ html {
     right: 10%;
     left: 35%;
     position: relative;
-    padding-bottom: 30px;
+    padding-bottom: px;
     border-bottom: 3px solid rgba(250, 250, 250, 0.25);
 }
 
 .section-heading {
     text-align: center;
-    padding: 80px 45px;
+    padding: 45px 45px 30px;
 }
 
 .section-heading h2 {
