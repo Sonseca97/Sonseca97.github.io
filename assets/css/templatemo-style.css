@@ -295,7 +295,9 @@ html {
 
 .section-heading {
     text-align: center;
-    padding: 45px 45px 30px;
+    padding-top: 45px;
+    padding-right: 45px;
+    padding-bottom: 30px;
 }
 
 .section-heading h2 {
