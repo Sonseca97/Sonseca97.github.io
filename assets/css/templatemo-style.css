@@ -143,7 +143,7 @@ html {
 }
 
 .menu .author-content {
-    margin: 40px 0px 60px 0px;
+    margin: 40px 0px 30px 0px;
 }
 
 .menu .author-content h4 {
@@ -157,7 +157,7 @@ html {
 }
 
 .menu .social-network {
-    margin-top: 60px;
+    margin-bottom: 10px;
 }
 
 .menu .social-network ul li {
@@ -371,9 +371,12 @@ button:hover {
 }
 
 .left-image img {
-    object-fit: cover;
-    height: auto;
-    width: auto;
+    top: 0;
+    left: 0;
+    object-fit: contain;
+    width: 350px;
+    height: 300px;
+    border-radius: 5px;
 }
 .right-image img {
     border-radius: 5px;
@@ -381,12 +384,12 @@ button:hover {
 
 .right-image-post h4,
 .left-image-post h4 {
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .right-image-post p,
 .left-image-post p {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .right-image-post .white-button,
